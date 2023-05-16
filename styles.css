@@ -351,3 +351,17 @@ body {
 #prodetails .single-pro-details p{
     line-height: 25px;
 }
+
+/* Cart */
+#bg{
+    background-image: url(./img/banner/b2.jpg);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #d2dfea; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 14px;
+    height: 35vh;
+}
