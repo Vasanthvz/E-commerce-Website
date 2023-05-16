@@ -295,8 +295,13 @@ body {
 /* Products page */
 #prodetails{
     display: flex;
+    flex-direction: column;
     margin-top: 20px;
     /* align-items: center; */
+}
+.container{
+    display: flex;
+    flex-direction: row;
 }
 #prodetails .single-pro-image{
     width: 40%;
@@ -342,4 +347,7 @@ body {
 }
 #prodetails .single-pro-details h4{
     padding-top: 25px;
+}
+#prodetails .single-pro-details p{
+    line-height: 25px;
 }
