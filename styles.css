@@ -260,5 +260,16 @@ body {
 /* Shop page */
 #page-header{
     text-align: center;
-    background-color: #d2dfea;
+    padding: 14px;
+    height: 35vh;
+    background-image: url(img/banner/b2.jpg);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #d2dfea; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.gradient{
+    color: #A3B8C2;
+  }
